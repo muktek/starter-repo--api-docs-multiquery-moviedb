@@ -3,8 +3,13 @@
 }
 
 body{
-  background: url('../images/flag-of-mexico.svg');
-  background-size: cover;
+  background: url('../images/grid-bg.png') repeat;
+
+}
+
+mark{
+  background: lightyellow;
+  padding: 10px;
 }
 
 #app-container{
@@ -14,11 +19,13 @@ body{
   max-width: 800px;
   padding: 20px;
 }
+
 h1{text-align: left;}
 p {text-align: left;}
 table{
   border-collapse: collapse;
 }
-td {
+
+td:nth-of-type(2) {
   text-align: right;
 }
